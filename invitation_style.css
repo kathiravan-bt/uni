@@ -1,0 +1,96 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(45deg,blue, violet, blueviolet);
+}
+
+#in-container{
+    border: 10px solid ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+    border:2px solid ;
+    padding:10px;
+    border-radius: 10px;
+}
+
+#photo{
+    border:2px solid black;
+    border-radius: 10px;
+    width:100px;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:aliceblue;
+    background-color: black;
+
+}
+
+img{
+    width : 50%;
+}
+
+pre{
+    display: inline-flex;
+    align-self:flex-start;
+}
+
+#join{
+    align-self: flex-end;
+    width:5%;
+    height: 30px;
+    margin-right:385px ;
+    margin-top: 25px;
+    padding: 5px;
+    border:2px solid ;
+    border-radius: 7px;
+    background-color: aliceblue;
+}
+
+#main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border: 2px solid burlywood;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: 10px 0px;
+    gap: 10px;
+}
+
+#h2{
+    padding-bottom: 20px;
+}
+
+.input-container{
+    gap:10px;
+    width: max-content;
+}
+
+#inputphone{
+    padding-right: 95px;
+}
+
+#inputmembers{
+    padding-right: 58px;
+}
+
+#confirmButton{
+    padding: 5px;
+    width: 20%;
+    align-self: flex-end;
+}
